@@ -7,6 +7,210 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TabControl>
+            <TabItem Header="Paragraph">
+                <FlowDocumentScrollViewer>
+                    <FlowDocument>
+                        <Paragraph x:Name="FirstParagraph">
+                            <Run x:Name="R1">
+                                Алекса́ндр Ива́нович Ге́рцен (25 марта (6 апреля) 1812, Москва — 9 (21) января 1870, Париж) — русский публицист, писатель, философ, педагог, принадлежащий к числу наиболее видных критиков официальной идеологии и политики Российской империи в XIX веке, сторонник революционных преобразований.
+                            </Run>
+                        </Paragraph>
+                        <Paragraph x:Name="SecondParagraph">
+                            Герцен родился в семье богатого помещика Ивана Алексеевича Яковлева (1767—1846), происходившего от Андрея Кобылы (как и Романовы). Мать — 16-летняя немка Генриетта-Вильгельмина-Луиза Гааг (нем. Henriette Wilhelmina Luisa Haag), дочь мелкого чиновника, делопроизводителя в казённой палате в Штутгарте. Брак родителей не был оформлен, и Герцен носил фамилию, придуманную отцом: Герцен — «сын сердца» (от нем. Herz).     
+                        </Paragraph>
+                    </FlowDocument>
+                </FlowDocumentScrollViewer>
+            </TabItem>
+            <TabItem Header="List">
+                <FlowDocumentScrollViewer>
+                    <FlowDocument>
+                        <Paragraph FontWeight="Bold">Память</Paragraph>
+                        <List MarkerStyle="Decimal" MarkerOffset="2" x:Name="listhistory">
+                            <ListItem>
+                                <Paragraph>
+                                    В юности Герцен получил обычное дворянское воспитание на дому, основанное на чтении произведений иностранной литературы, преимущественно конца XVIII века. Французские романы, комедии Бомарше, Коцебу, произведения Гёте, Шиллера с ранних лет настроил
+                                </Paragraph>
+                            </ListItem>
+                            <ListItem>
+                                <Paragraph>
+                                    Уже в детстве Герцен познакомился и подружился с Николаем Огарёвым. По его воспоминаниям, сильное впечатление на мальчиков (Герцену было 13, Огарёву 12 лет) произвело известие о восстании декабристов 14 декабря 1825 года. Под его впечатлением у них зарождаются первые, ещё смутные мечты о революционной деятельности; во время прогулки на Воробьёвых горах мальчики поклялись бороться за свободу.
+                                </Paragraph>
+                            </ListItem>
+                        </List>
+                    </FlowDocument>
+                </FlowDocumentScrollViewer>
+            </TabItem>
+            <TabItem Header="Table">
+                <FlowDocumentScrollViewer>
+                    <FlowDocument>
+                        <Paragraph FontWeight="Bold">Сочинения</Paragraph>
+                        <Table>
+                            <TableRowGroup>
+                                <TableRow>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph># n. n.</Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>Name</Paragraph>                                            
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>Name</Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>1</Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>1895</Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>Pop</Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>2</Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>1955</Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>Fox</Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell BorderBrush="Green" BorderThickness="1" ColumnSpan="3">
+                                        <Paragraph>2</Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>1955</Paragraph>
+                                    </TableCell>
+                                    <TableCell BorderBrush="Black" BorderThickness="1">
+                                        <Paragraph>Fox</Paragraph>
+                                    </TableCell>
+                                </TableRow>
+                            </TableRowGroup>
+                        </Table>
+                    </FlowDocument>
+                </FlowDocumentScrollViewer>
+            </TabItem>
+            <TabItem Header="Section">
+                <FlowDocumentScrollViewer>
+                    <FlowDocument>
+                        <Section FontFamily="Palation" Background="LightCoral" Padding="5" Margin="5">
+                            <Paragraph>
+                                In emigration
+                            </Paragraph>
+                            <Paragraph>
+                                Несмотря на взаимное ожесточение и споры, обе стороны в своих взглядах имели много общего и прежде всего, по признанию самого Герцена, общим было «чувство безграничной обхватывающей всё существование любви к русскому народу, к русскому складу ума». Противники, «как двуликий Янус, смотрели в разные стороны, в то время как сердце билось одно». «Со слезами на глазах», обнимаясь друг
+                            </Paragraph>
+                            <Paragraph>
+                                Он сблизился с Прудоном и другими выдающимися деятелями революции и европейского радикализма; вместе с Прудоном он издавал газету «Голос народа» («La Voix du Peuple») которую финансировал. К парижскому периоду относится начало увлечения его жены немецким поэтом Гервегом. В 1849 году, после разгрома радикальной оппозиции президентом Луи Наполеоном, Герцен был вынужден покинуть Францию и переехал в Швейцарию, а оттуда в Ниццу, принадлежавшую тогда Сардинскому королевству.
+                            </Paragraph>
+                        </Section>
+                        <BlockUIContainer>
+                            <Button Content="Print" Command="ApplicationCommands.Print">
+
+                            </Button>
+                        </BlockUIContainer>
+                        <BlockUIContainer>
+                            <Button Content="Save" Command="ApplicationCommands.Print">
+
+                            </Button>
+                        </BlockUIContainer>
+                    </FlowDocument>
+                </FlowDocumentScrollViewer>
+            </TabItem>
+            <TabItem Header="Floaster">
+                <FlowDocumentScrollViewer>
+                    <FlowDocument>
+                        <Paragraph>
+                            type psi
+                            <Run xml:space="preserve"></Run>
+                            <Floater
+                                FontSize="24"
+                                FontStyle="Italic"
+                                Foreground="Green"
+                                Padding="5"
+                                Margin="5 10 15 10"
+                                Width="250"
+                                HorizontalAlignment="Left">
+                                <Paragraph>
+                                    В июле 1849 года Николай I арестовал всё имущество Герцена и его матери. После этого арестованное имущество было заложено банкиру Ротшильду, и тот, ведя переговоры о предоставлении займа России, добился снятия императорского запрещения.[7]
+                                </Paragraph>
+                            </Floater>
+                        </Paragraph>
+                        <Paragraph>
+                            После череды семейных трагедий, обрушившихся на Герцена в Ницце (измена жены с Гервегом, гибель матери и сына в кораблекрушении, смерть жены и новорождённого ребёнка) Герцен переехал в Лондон, где основал Вольную русскую типографию для печатания запрещённых изданий и с 1857 года издавал еженедельную газету «Колокол».[8]
+                        </Paragraph>
+                        <Paragraph>
+                            В июле 1849 года Николай I арестовал всё имущество Герцена и его матери. После этого арестованное имущество было заложено банкиру Ротшильду, и тот, ведя переговоры о предоставлении займа России, добился снятия императорского запрещения.[7]
+                        </Paragraph>
+                        <Paragraph Margin="0 30 0 0">
+                            Из произведений, написанных Герценом за границей, особенно важны: письма из «Avenue Marigny» (первые напечатаны в «Современнике», все четырнадцать под общим заглавием: «Письма из Франции и Италии»,
+                        </Paragraph>
+                        <Paragraph>
+                            «Сорока-воровка»
+                            <Floater Width="150" Padding="5 0 5 0" HorizontalAlignment="Right">
+                                <BlockUIContainer>
+                                    <Image Source="https://cdn2.stylecraze.com/wp-content/uploads/2013/11/Top-25-Most-Beautiful-Daisy-Flowers.jpg">
+                                    </Image>
+                                </BlockUIContainer>
+                            </Floater>
+                        </Paragraph>
+                    </FlowDocument>
+                </FlowDocumentScrollViewer>
+            </TabItem>
+            <TabItem Header="PageViewer">
+                <FlowDocumentPageViewer x:Name="dcDocument">
+                    <FlowDocument>
+                        <Paragraph>Дельта (яп. デルタ, Дерута) — "Внутренняя" организации Кара. У неё длинные кудрявые волосы и необычные глаза с вертикальными линиями, которые пересекают радужку. Она обладает татуировкой римской цифры I в центре своего лба. Она показала, что владеет значительной степенью физической силы, будучи в состоянии ударить ногой стол и разбить его об стену. Дельта проявляет вспыльчивый характер, поэтому иногда устраивает разрушения, в частности, перевернув ногой стол, за которым обедал её лидер, чтобы</Paragraph>
+                        <Paragraph>Владимир Путин родился 7 октября 1952 года в Ленинграде. «Я из простой семьи, и я жил очень долго этой жизнью, практически всю свою сознательную жизнь. Я жил как рядовой нормальный человек, и у меня всегда сохраняется эта связь», – вспоминает Путин.</Paragraph>
+                        <Paragraph>Мать Владимира Путина - Мария Ивановна Шеломова - была очень мягким доброжелательным человеком.
+
+«Мы скромно жили. Поэтому щи, котлеты делали, и вот блины. А по воскресеньям и праздникам мама пекла пирожки с капустой, с мясом, с рисом и ватрушки, очень вкусные», – рассказывает Путин.</Paragraph>
+                        <Paragraph>Мама не одобряла его решение заниматься дзюдо. «Каждый раз, когда я шёл на тренировку, она говорила: "Опять на драку на свою пошёл"». Положение исправил его тренер, который пришёл домой и рассказал его родителям, чем он занимается, каких добился успехов, после чего отношение к занятию этим видом спорта в семье изменилось.</Paragraph>
+                        <Paragraph>Отец Владимира Путина - Владимир Спиридонович Путин - участник войны, в 50-е годы служил в охране вагоностроительного завода, позже был мастером на заводе.</Paragraph>
+                        <Paragraph>Фото из личного архива Владимира Путина
+Фото из личного архива Владимира Путина
+Отец Владимира Путина - Владимир Спиридонович Путин - участник войны, в 50-е годы служил в охране вагоностроительного завода, позже был мастером на заводе.
+
+«Отец родился в Санкт-Петербурге в 1911 году. Когда началась Первая мировая война, в Питере жить стало трудно, голодно, и вся семья уехала в деревню Поминово в Тверской области, на родину моей бабушки.</Paragraph>
+                    </FlowDocument>
+                </FlowDocumentPageViewer>
+                
+            </TabItem>
+            <TabItem Header="RichTextBox">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <RichTextBox Grid.Row="0" x:Name="MyRichTextBox">
+                        <FlowDocument>
+                            <Paragraph FontWeight="Bold">Family</Paragraph>
+                            <Paragraph>После войны семья Путиных поселилась в комнате в коммуналке, в обычном питерском доме в Басковом переулке.</Paragraph>
+                            <Paragraph>Владимир Путин вспоминает: «Двор-колодец, пятый этаж без лифта. До войны у родителей было полдома в Петергофе.</Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <Button HorizontalAlignment="Left"
+                                Content="Load document"
+                                Width="150"
+                                Height="20"
+                                Click="btnLoadDocument_Click"></Button>
+                        <Button HorizontalAlignment="Left"
+                                Content="Save document"
+                                Width="150"
+                                Height="20"
+                                Click="btnSaveDocument_Click"></Button>
+                                
+                    </StackPanel>
+                </Grid>
+                
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
